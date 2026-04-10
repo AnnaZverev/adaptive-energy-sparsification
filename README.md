@@ -17,13 +17,8 @@ Instead of penalizing weights or activations uniformly, AES enforces a **relativ
 - Early layer → reference information level  
 - Deep layers → compressed representation  
 
-The model is penalized only when the entropy of deep representations exceeds a dynamically defined threshold:
+The model is penalized only when the entropy of deep representations exceeds a dynamically defined threshold.
 
-$$
-\[
-\mathcal{L}_{AES} = \sum_{l \in \mathcal{L}_{deep}} \max(0, H^{(l)} - \gamma \cdot H^{(early)})
-\]
-$$
 This creates a **deterministic information bottleneck** without stochastic encoding.
 
 ## Features
