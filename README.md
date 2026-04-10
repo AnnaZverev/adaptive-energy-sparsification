@@ -4,7 +4,7 @@ Deterministic information-theoretic regularization for hybrid neural networks in
 
 ## Overview
 
-This repository contains the implementation of **Adaptive Energy Sparsification (AES)** — a deterministic entropy-based regularization method designed for training deep spatio-temporal neural networks under limited data conditions.
+This repository contains the implementation of **Adaptive Energy Sparsification (AES)** - a deterministic entropy-based regularization method designed for training deep spatio-temporal neural networks under limited data conditions.
 
 The method introduces an adaptive constraint on the entropy of hidden representations, effectively controlling the information capacity of deep layers without relying on stochastic sampling or variational approximations.
 
