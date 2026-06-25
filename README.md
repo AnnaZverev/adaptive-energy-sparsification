@@ -91,7 +91,3 @@ Installed automatically in the notebook:
 | **AES (layer3)** | **0.680 ± 0.040** | 0.679 ± 0.054 | **0.673 ± 0.093** | **0.45 ± 0.13** |
 
 **Summary.** AES reduces the entropy of the latent representation by roughly an order of magnitude while keeping accuracy and F1 on par with the baseline (within one standard deviation). ROC-AUC is slightly lower than the baseline and VIB, reflecting a compression–ranking trade-off: AES optimizes representation compactness rather than probabilistic ranking.
-
-## Citation
-
-Zvereva A.K., Grabovoy A.V., Kaprielova M.S. Deterministic Information-Theoretic Regularization of Hybrid Neural Networks for fMRI Classification. Trudy ISP RAN / Proc. ISP RAS, vol. 37, issue 1, 2025.
